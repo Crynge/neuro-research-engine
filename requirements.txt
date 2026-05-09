@@ -1,0 +1,41 @@
+# Core Dependencies
+openai>=1.12.0
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+python-dotenv>=1.0.0
+rich>=13.7.0
+pydantic>=2.5.0
+pydantic-settings>=2.1.0
+
+# Data Processing & Analysis
+pandas>=2.1.0
+numpy>=1.26.0
+scipy>=1.11.0
+scikit-learn>=1.3.0
+
+# NLP & Text Processing
+nltk>=3.8.1
+spacy>=3.7.0
+textblob>=0.17.1
+
+# Statistical & Visualization
+matplotlib>=3.8.0
+seaborn>=0.13.0
+plotly>=5.18.0
+
+# Async & Concurrency
+aiohttp>=3.9.0
+asyncio-throttle>=1.0.2
+
+# Validation & Typing
+typing-extensions>=4.9.0
+
+# Testing
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+pytest-cov>=4.1.0
+
+# Utilities
+python-dateutil>=2.8.2
+uuid6>=2024.1.12
+jsonschema>=4.20.0
