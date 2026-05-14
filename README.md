@@ -1,5 +1,11 @@
 # Neuro Research Engine
 
+AI-powered research analysis platform for **qualitative synthesis**, **quantitative interpretation**, and **multi-agent research workflows**.
+
+![Social preview](docs/social-preview.svg)
+
+This repository is now packaged with a stronger public maintenance layer for GitHub search and ranking: contributor files, security guidance, repo-health automation, and lightweight CI.
+
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Code Style: Black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)

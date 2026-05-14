@@ -1,0 +1,20 @@
+name: Repo Health
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  health:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Assert core files
+        run: |
+          test -f README.md
+          test -f LICENSE
+          test -f AUTHORS.md
+          test -f CONTRIBUTING.md
+          test -f SECURITY.md
+          test -f docs/final-audit.md
